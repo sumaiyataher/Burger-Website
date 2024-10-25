@@ -1,0 +1,290 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* header start */
+header{
+    padding: 0;
+   }
+.logo{
+    width: 66px;
+   }
+.menu ul li a{
+    padding: 0px 10px !important;
+    margin-bottom: 5px;
+    text-align: right;
+}
+    
+/* banner start */
+
+.banner {
+    padding: 16px 30px;
+}
+
+.b_text{
+    text-align: center;
+} 
+
+ .b_h1 {
+    margin: 20px 0px 18px;
+    font-size: 25px;
+    line-height: 38px;
+}
+.b_p1 {
+    font-size: 14px;
+    line-height: 26px;
+
+} 
+
+.b_btn {
+    margin-top: 16px;
+    padding: 6px 12px;
+}
+
+/* about */
+.about {
+    padding: 30px 34px;
+}
+.a_text{
+    text-align: center;
+}
+.a_h1 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 20px; 
+} 
+
+.a_p {
+    padding: 15px 0px 20px;
+    line-height: 25px;
+
+}
+
+/* menu start */
+.our_menu {
+    padding: 60px 20px;
+}
+.m_title {
+    text-align: center;
+} 
+
+ .m_item {
+    text-align: center;
+    margin: 17px 0px 0px;
+    padding: 14px 5px 0px;
+} 
+
+/* services start */
+
+.services{
+    padding: 40px 30px;
+}  
+
+/* from start */
+.subscribe {
+    display: none;
+}
+
+/* footer start  */
+.footer{
+    padding-bottom: 40px;
+    }
+    .f_1{
+        text-align: center;
+    }
+    .f_h4 {
+        margin-top: 26px;
+        font-size: 18px;
+        
+    } 
+     .f_p {
+        padding-right: 0px;
+    }
+    .f_icon {
+        text-align: center;
+    }
+    .f_icon ul li i{
+        font-size: 40px;
+        
+    } 
+
+
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .c_padding{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    /* header start */
+header{
+    padding: 0;
+    }
+.logo{
+    width: 66px;
+    }
+ .menu ul li a{
+    padding: 0px 10px !important;
+    margin-bottom: 5px;
+    text-align: right;
+    }
+
+/* banner start */
+
+.banner {
+    padding: 16px 0px 30px;
+}
+
+.b_text{
+    text-align: center;
+}
+
+.b_h1 {
+    margin: 0px 0px 10px;
+    font-size: 25px;
+    line-height: 38px;
+}
+.b_p1 {
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+.b_btn {
+    margin-top: 20px;
+    padding: 6px 12px;
+}
+
+/* about start */
+
+.about {
+    padding: 30px 34px;
+}
+
+.a_text{
+    text-align: center;
+}
+
+.a_h1 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.a_p {
+    padding: 15px 0px 20px;
+    color: #000;
+    line-height: 25px;
+
+}
+
+/* menu start */
+.our_menu {
+    padding: 60px 20px;
+}
+.m_title {
+    text-align: center;
+}
+
+.m_item {
+    text-align: center;
+    margin: 17px 0px 0px;
+    padding: 14px 5px 0px;
+}
+
+
+/* services start */
+
+.services{
+    padding: 40px 30px;
+}
+
+
+.subscribe {
+    display: none;
+}
+
+
+/* footer start */
+.footer{
+    padding-top: 40px;
+    }
+    .f_1{
+        text-align: center;
+    }
+    .f_h4 {
+        margin-top: 26px;
+        font-size: 18px;
+        
+    }
+    .f_p {
+        padding-right: 0px;
+    }
+    .f_icon {
+        text-align: center;
+    }
+    .f_icon ul li i{
+        font-size: 40px;
+        
+    }
+
+ 
+ }
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */
+.menu ul li a{
+    padding: 0px 10px !important;
+    margin-bottom: 5px;
+    }
+    
+/* 
+    banner start */
+.b_text {
+    text-align: center;
+    }
+
+.b_image {
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    }
+ .b_p1 {
+    font-weight: 600;
+    line-height: 30px;
+    }
+/* about start */
+.a_p {
+    padding: 15px 0px 20px;
+    color: #000;
+    line-height: 25px;
+
+}
+
+.s_forms{
+    width: 200px;
+    /* border: 5px solid red; */
+    padding-top: 20px;
+    margin: 0 auto;
+    position: relative;
+  } 
+
+  .s_input {
+    width: 345px;
+    height: 44px;
+}
+
+.s_submit {
+    width: 344px;
+    height: 44px;
+    position: absolute;
+    top: 52px;
+    left: 0px;
+
+}
+}
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)and (max-width: 1399.98px) {  }
+
+ /* Extra extra large devices (large desktops, 1400px and up) * */
+@media (min-width: 1400px){ }
